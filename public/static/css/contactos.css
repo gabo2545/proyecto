@@ -1,0 +1,90 @@
+.textofin{
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    font-size:12px;
+    font-family: Arial,Helvetica,Verdana;
+    text-align: center;
+}
+.maps {
+        border: 5px solid #fff; /* Borde blanco de 2px */
+        box-shadow: 0 0 10px rgba(247, 5, 5, 0.3);/* Sombra ligera */
+}
+.BoxInfos .material-symbols-outlined {
+    color:rgb(133, 231, 21);
+    font-size: 25px;
+    vertical-align: middle; /* Alinea el ícono verticalmente con el texto */
+    margin-right: 3px; /* Espacio entre el ícono y el texto */
+}
+
+.Contenedor{
+    display: inline-block;
+    width: 950px;
+    margin-top:40px;
+    text-align: center;
+}
+.Contenedor .Titulos{
+    display: inline-block;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+    color:rgb(133, 231, 21);
+    padding-top:30px;
+    font-family: 'Font1';
+}
+.Contenedor .BoxInfos{
+    display: inline-block;
+    background: #FFF;
+    margin-bottom:15px;
+    vertical-align: top;
+    box-shadow: 1px 1px 4px 1px #000;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.Contenedor .BoxInfos .Titulos{
+    display: inline-block;
+    width: 50%;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 19px;
+    color:#444;
+    color:rgb(133, 231, 21);
+
+    padding-top:10px;
+    font-family: 'Font1';
+}
+.Contenedor .BoxInfos .Infos{
+    display: inline-block;
+    width: 90%;
+    font-size: 15px;
+    color:#777;
+    text-align: left;
+    padding-bottom:20px;
+    padding-top:10px;
+    line-height: 22px;
+}
+
+.Contenedor .BoxWidthi100{
+    width:100%;
+}
+.Contenedor .BoxWidthi50{
+    width:49%;
+}
+.Contenedor .BoxWidthi25{
+    width:24%;
+}
+.Contenedor .BoxHeightConctatos{
+    height:163px;
+}
+
+@media (max-width:920px)
+{
+    .Contenedor{
+        width: 85%;
+    }
+    .Contenedor .BoxWidthi25,
+    .Contenedor .BoxWidthi50,
+    .Contenedor .BoxWidthi100{
+        width:100%;
+    }
+}

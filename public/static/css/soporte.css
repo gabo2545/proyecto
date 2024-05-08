@@ -1,0 +1,33 @@
+.card-body .material-symbols-outlined {
+    color:rgb(133, 231, 21);
+    font-size: 25px;
+    vertical-align: middle; /* Alinea el ícono verticalmente con el texto */
+    margin-right: 3px; /* Espacio entre el ícono y el texto */
+}
+.textocompleto{
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    font-size:12px;
+    font-family: Arial,Helvetica,Verdana;
+    text-align: center;
+}
+.Contenedor{
+    display: inline-block;
+    width: 950px;
+    margin-top:50px;
+    text-align: center;
+}
+.card-title {
+    font-size: 19px; /* Tamaño del texto del título */
+    color:rgb(133, 231, 21);
+    text-transform: uppercase;
+}
+
+/* Estilos para el texto dentro de las cartas */
+.card-text {
+    font-size: 15px; /* Tamaño del texto */
+
+    color: #666; /* Color del texto */
+}
+

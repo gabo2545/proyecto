@@ -1,0 +1,251 @@
+/* Estilo para hacer la tabla más pequeña */
+.table {
+    text-align: center;
+    width: 85%; /* Ancho deseado para la tabla */
+    margin: 0 auto; /* Centra la tabla horizontalmente */
+    font-size: 20px;
+    border: 5px solid rgb(245, 245, 245); /* Añade un contorno a la tabla */
+    table-layout: fixed;
+
+}
+
+/* Estilo para el encabezado de la tabla */
+.table th {
+    background-color: rgba(255, 255, 255, 0.3); /* Color de fondo del encabezado */
+    border: 2px solid rgb(245, 245, 245);
+    color:  rgb(133, 231, 21);
+    padding: 10px 5px;
+    text-transform: uppercase;
+}
+
+/* Estilo para las celdas de datos */
+.table td {
+    background-color: rgba(255, 255, 255, 0.3); /* Color de fondo de las celdas de datos */
+    border: 2px solid rgb(245, 245, 245);
+    color:  rgb(255, 255, 255);
+    padding: 15px;
+}
+
+/* Estilo para las filas impares */
+.table tbody tr:hover {
+    background-color: rgba(190, 7, 7, 0.3); /* Color de fondo de las filas impares */
+    cursor: pointer;
+}
+
+.tablas{
+    color:  rgb(133, 231, 21);
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+    font-weight: bold; /* Hacer el texto en negrita */
+}
+
+.close{
+    top: 5em;
+    left: 70%;
+}
+.translate{
+    transform: translateY(-100%);
+}
+.navbar .dropdown-menu {
+    background-color: rgba(255, 255, 255, 0.3);/* Cambia esto al color que prefieras */
+}
+.navbar .dropdown-menu .dropdown-item {
+    color: rgb(240, 178, 9); /* Cambia esto al color que prefieras */
+}
+
+
+/* Cambiar el color de texto al pasar el mouse (hover) */
+.navbar .dropdown-menu .dropdown-item:hover {
+    background-color: rgba(190, 7, 7, 0.3);/* Cambia esto al color de fondo que prefieras para hover */
+    color: rgb(133, 231, 21);  /* Cambia esto si necesitas otro color de texto para hover */
+}
+
+/* modalStyles.css */
+#statusModal .modal-content {
+    background-color: #f8f9fa; /* Cambia el color de fondo del contenido del modal */
+    color: #333; /* Cambia el color del texto dentro del modal */
+    border-radius: 10px; /* Opcional: elimina los bordes redondeados */
+}
+
+#statusModal .modal-header {
+    background-color: #000000; /* Color de fondo para el encabezado del modal */
+    color: rgb(240, 178, 9);
+}
+
+#statusModal .modal-footer {
+    background-color: #020202; /* Color de fondo para el pie del modal */
+}
+/* Ajustes para que el modal aparezca desde la derecha */
+#statusModal .modal-dialog {
+    position: fixed;
+    margin: center;
+    width: 30%;
+    height: 30%;
+    right: 10px; /* Alinea el modal a la derecha */
+    top: 100px; /* Alinea el modal en la parte superior para cubrir toda la altura */
+}
+
+#statusModal .modal-content {
+
+    height: 50%; /* Hace que el contenido del modal tenga la altura completa */
+    border: 1px; /* Opcional: elimina cualquier borde */
+    border-radius: 10px; /* Opcional: elimina los bordes redondeados */
+    animation-name: slideInFromRight; /* Aplica la animación personalizada */
+    animation-duration: 0.3s; /* Duración de la animación */
+}
+
+/* Define la animación para deslizar desde la derecha */
+
+#datetimeModal .modal-content {
+    background-color: #f8f9fa; /* Cambia el color de fondo del contenido del modal */
+    color: #333; /* Cambia el color del texto dentro del modal */
+    border-radius: 10px; /* Opcional: elimina los bordes redondeados */
+}
+
+#datetimeModal .modal-header {
+    background-color: #000000; /* Color de fondo para el encabezado del modal */
+    color: rgb(240, 178, 9);
+}
+
+#datetimeModal .modal-footer {
+    background-color: #020202; /* Color de fondo para el pie del modal */
+}
+/* Ajustes para que el modal aparezca desde la derecha */
+#datetimeModal .modal-dialog {
+    position: fixed;
+    margin: center;
+    width: 30%;
+    height: 30%;
+    right: 10px; /* Alinea el modal a la derecha */
+    top: 100px; /* Alinea el modal en la parte superior para cubrir toda la altura */
+}
+
+/* Define la animación para deslizar desde la derecha */
+/* Animación para que el modal aparezca deslizando desde abajo */
+@keyframes slideInFromBottom {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+/* Animación para que el modal desaparezca deslizando hacia arriba */
+@keyframes slideOutToTop {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-100%);
+    }
+}
+
+/* Estilos para el modal */
+.modal {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: flex-end; /* Alinear en la parte inferior */
+}
+
+/* Aplicar las animaciones al modal */
+.modal.fade.show {
+    animation: slideInFromBottom 0.3s ease-in-out forwards;
+}
+
+.modal.fade {
+    animation: slideOutToTop 0.3s ease-in-out forwards;
+}
+
+#nombreEquipoModal .modal-content {
+    background-color: #f8f9fa; /* Cambia el color de fondo del contenido del modal */
+    color: #333; /* Cambia el color del texto dentro del modal */
+    border-radius: 10px; /* Opcional: elimina los bordes redondeados */
+}
+
+#nombreEquipoModal .modal-header {
+    background-color: #000000; /* Color de fondo para el encabezado del modal */
+    color: rgb(240, 178, 9);
+}
+
+#nombreEquipoModal .modal-footer {
+    background-color: #020202; /* Color de fondo para el pie del modal */
+}
+/* Ajustes para que el modal aparezca desde la derecha */
+#nombreEquipoModal .modal-dialog {
+    position: fixed;
+    margin: center;
+    width: 30%;
+    height: 30%;
+    right: 10px; /* Alinea el modal a la derecha */
+    top: 100px; /* Alinea el modal en la parte superior para cubrir toda la altura */
+}
+/* Cambiar el color del botón de salida */
+.btn-custom {
+
+    color: rgb(240, 178, 9);
+}
+
+/* Cambiar el color del botón de salida al pasar el mouse */
+.btn-custom:hover {
+
+    background-color: rgba(190, 7, 7, 0.3);/* Cambia esto al color de fondo que prefieras para hover */
+    color: rgb(133, 231, 21);
+}
+.content {
+    margin-top: 2rem;
+}
+/* Cambiar color y centrar títulos */
+[data-content] h1 {
+    color: rgb(133, 231, 21);
+    text-align: center; /* Centra horizontalmente */
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 20px ;
+}
+[data-content] {
+    display: none;
+}
+
+.active[data-content] {
+    display: block;
+}
+.content .material-symbols-outlined {
+    color:rgb(255, 255, 255);
+    font-size: 13px;
+    vertical-align: middle; /* Alinea el ícono verticalmente con el texto */
+    margin-right: 3px; /* Espacio entre el ícono y el texto */
+}
+.content {
+    padding-bottom: 80px ;
+}
+/* Estilo base para el select */
+
+.material-symbols-outlined {
+    color:rgb(255, 255, 255);
+    font-size: 13px;
+    vertical-align: middle; /* Alinea el ícono verticalmente con el texto */
+    margin-right: 3px; /* Espacio entre el ícono y el texto */
+}
+.menu {
+    display: flex;
+}
+
+.menu p {
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+.content {
+    margin-top: 2rem;
+}
+
+[data-content] {
+    display: none;
+}
+
+.active[data-content] {
+    display: block;
+}

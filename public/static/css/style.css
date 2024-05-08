@@ -1,0 +1,93 @@
+.titulo-medio {
+	color:  rgb(133, 231, 21);  /* Color del texto del footer */
+    font-size: 40px; /* Tamaño de la fuente del texto del footer */
+    font-weight: bold; /* Hacer el texto en negrita */
+    font-family: arial, serif;
+}
+.navbar {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.navbar .navbar-toggler {
+	color: rgb(133, 231, 21);
+}
+.navbar .navbar-brand{
+    color:  rgb(133, 231, 21);  /* Color del texto del footer */
+    font-size: 25px; /* Tamaño de la fuente del texto del footer */
+    font-weight: bold; /* Hacer el texto en negrita */
+    font-family: arial, serif;
+    transition: color 0.3s;
+}
+.navbar .nav-link {
+    color:  rgb(133, 231, 21);   /* Color del texto del footer */
+    font-size: 17px; /* Tamaño de la fuente del texto del footer */
+    font-weight: bold; /* Hacer el texto en negrita */
+    font-family:arial, serif;
+    transition: color 0.3s;
+}
+.navbar .nav-link:hover {
+    color: #ffffff;
+}
+.navbar .navbar-brand:hover {
+    color: #ffffff;
+}
+.navbar img{
+    width: 85px; /* Ancho deseado para la imagen */
+    border-radius: 10%; /* Borde redondeado */
+    border: 2px solid #fff; /* Borde blanco de 2px */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra ligera */
+}
+.container-report{
+	
+	display: flex;
+	max-width: 1200px;
+	margin: auto;
+}
+.fondos{
+	width: 100%;
+	margin: 10px;
+	border-radius: 6px;
+	overflow: hidden;
+	background:#fff;
+	box-shadow: 1px 1px 20px rgba(247, 5, 5, 0.2);
+	transition: all 400ms ease-out;
+	cursor: default;
+}
+
+.fondos:hover{
+	box-shadow: 1px 1px 20px rgba(247, 5, 5, 0.2);
+	transform: translateY(-3%);
+}
+.fondos img{
+	width: 100%;
+	height: 210px;
+}
+.fondos .fondosmedio{
+	padding: 20px;
+	text-align: center;
+}
+.fondos .fondosmedio h3{
+	margin-bottom: 15px;
+	color: #7a7a7a;
+}
+.fondos .fondosmedio p{
+	line-height: 2;
+	color: #6a6a6a;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.fondos .fondosmedio a{
+	display: inline-block;
+	padding: 10px;
+	margin-top: 80px;
+	text-decoration: none;
+	color: rgb(133, 231, 21); 
+	border: 1px solid rgb(133, 231, 21); 
+	border-radius: 10px;
+	transition: all 400ms ease;
+	margin-bottom: 5px;
+}
+.fondos .fondosmedio a:hover{
+	background: #000000;
+	color: rgb(133, 231, 21); 
+}
+

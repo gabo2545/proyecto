@@ -1,0 +1,29 @@
+footer {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: rgb(133, 231, 21);
+    padding: 10px 0;
+    font-size: 16px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+}
+footer img {
+    width: 100px; /* Ancho deseado para la imagen */
+    height: auto; /* Mantener la proporción de aspecto */
+}
+body {
+    background-image: url('../imagen/Fondoinicio.jpeg');
+    background-size: cover; /* Ajusta la imagen al tamaño del cuerpo */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    background-attachment: fixed;
+    padding-bottom: 100px ;
+}
+
+.input-group .material-symbols-outlined {
+    color: rgb(252, 252, 252);
+    font-size: 17px;
+    vertical-align: middle; /* Alinea el ícono verticalmente con el texto */
+
+}
+
